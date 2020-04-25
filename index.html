@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 4</title>
+  </head>
+
+  <body>
+    <script src="assets/js/script.js" charset="utf-8"></script>
+    <script>
+      for (let i = 0; i <= days.length - 1; i++) {
+        var p = document.createElement("p");
+        p.innerHTML = days[i];
+        document.body.appendChild(p);
+        if (i >= days.length - 2) {
+          p.style.fontWeight = '900';
+        }
+      }
+    </script>
+  </body>
+
+</html>
